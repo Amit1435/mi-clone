@@ -1,0 +1,68 @@
+.nav{
+    display: flex;
+    z-index: 1000;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+    background-color: white;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.503);
+    /* position: fixed;
+    top: 53px;
+    width: 100%; */
+}
+
+.logo{
+    background: orangered;
+    width: 58px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    right: 2vmax;
+}
+
+#logoImage{
+    transition: all 0.25s;
+    transform: translate(-55px, 2px);
+}
+
+#logoImage:hover{
+    transform: translate(0px, 2px);
+}
+
+.navLinks{
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-weight: 500;
+    font-size: 1.1vmax;
+}
+
+.navLinks:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.searchbox > svg{
+    fill: rgb(59, 59, 59);
+    width: 1.4rem;
+    padding-right: 0.4rem;
+}
+
+.searchbox{
+    position: relative;
+    left: 5vmax;
+}
+
+.searchbox >input{
+    border: none;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.802);
+    width: 15vmax;
+    font-size: 1.1vmax;
+    outline: none;
+    color: rgb(61, 61, 61);
+    font-weight: 200;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}

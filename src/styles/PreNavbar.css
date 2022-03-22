@@ -1,0 +1,42 @@
+.preNav{
+    background-color: rgba(29,28,28);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+    /* position: fixed;
+    z-index: 1000;
+    width: 100%; */
+}
+
+.preNav > div{
+    padding: 0 4vmax;
+    display: flex;
+    align-items: center;
+}
+
+.preNav > div >span{
+    color: rgb(181, 181, 181);
+    font-size: 0.8vmax;
+    font-weight: 100;
+}
+
+.preNav > div svg{
+    fill: rgb(201, 201, 201);
+    width: 1.4rem;
+    padding-right: 0.4rem;
+}
+
+.preNav > div svg:hover{
+    fill: white;
+}
+.preNav > div > a{
+    color: gainsboro;
+    font-size: 1vmax;
+    font-weight: 300;
+    margin: 1vmax;
+    text-decoration: none;
+}
+
+.preNav > div > a:hover{
+    color: white;
+}

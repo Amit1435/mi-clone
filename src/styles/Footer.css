@@ -1,0 +1,71 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    padding: 4.5vmax;
+    background-color: rgb(37, 37, 37);
+    color: rgb(235, 233, 233);
+}
+
+.footer > div{
+    margin: 1vmax;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer > div:nth-child(2){
+    display: block;
+}
+.footer > div:nth-child(2) >a{
+    display: inline-block;
+}
+.footer > div > a{
+    color: gainsboro;
+    font-size: 1vmax;
+    text-decoration: none;
+    margin: 0.6vmax 0;
+}
+
+.footer > div > a:hover{
+    color: white;
+}
+
+.footer > div:last-child >div{
+    width: 45%;
+    margin: 1vmax;
+    font-size: 0.8vmax;
+}
+
+.footer > div:last-child >button{
+    width: 50%;
+    border: 1px solid white;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 0.6vmax 0;
+    font-size: 0.98vmax;
+    font-weight: 100;
+    transition: all 0.5s;
+}
+.footer > div:last-child >button:hover{
+    background-color: white;
+    color: rgb(37, 37, 37);
+}
+
+.footerBorder{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.footerBorder >div{
+    border-top: 1px solid rgba(196, 196, 196, 0.626);
+    color: rgb(206, 206, 206);
+    width: 90vmax;
+    margin: auto;
+    padding: 2vmax;
+    font-size: 0.98vmax;
+}
+.image-prefooter{
+width: 99vw;
+}
+
+
+
